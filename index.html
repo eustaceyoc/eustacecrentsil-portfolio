@@ -103,9 +103,9 @@ section{padding:110px 0 0}
 .prow.hide{display:none}
 .prow .img{display:none}
 @media (hover:hover) and (min-width:900px){.prow a:hover{padding-left:16px}.prow a:hover h3{color:var(--acc)}.prow a:hover .ar{transform:translate(4px,-4px)}}
-.peek{position:fixed;left:0;top:0;width:420px;aspect-ratio:16/10;border-radius:10px;pointer-events:none;z-index:30;opacity:0;transform:scale(.92);transition:opacity .25s,transform .25s;box-shadow:0 30px 60px -20px rgba(40,30,10,.45);background:#ddd url(work.webp) 0 0/100% auto no-repeat;border:1px solid rgba(0,0,0,.08)}
+.peek{position:fixed;left:0;top:0;width:420px;aspect-ratio:16/10;border-radius:10px;pointer-events:none;z-index:30;opacity:0;transform:scale(.92);transition:opacity .25s,transform .25s;box-shadow:0 30px 60px -20px rgba(40,30,10,.45);background:#ddd url(/work.webp) 0 0/100% auto no-repeat;border:1px solid rgba(0,0,0,.08)}
 .peek.on{opacity:1;transform:scale(1)}
-.spr{background-image:url(work.webp);background-repeat:no-repeat;background-size:100% auto}
+.spr{background-image:url(/work.webp);background-repeat:no-repeat;background-size:100% auto}
 /* services */
 .svc{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
 .svc div{padding:26px 24px 30px 0;border-bottom:1px solid var(--rule)}
@@ -114,7 +114,7 @@ section{padding:110px 0 0}
 .svc .mono{display:block;margin-bottom:14px}.svc h3{font-size:26px;margin-bottom:8px}.svc p{color:var(--mut);font-size:15px;margin:0}
 /* before after */
 .ba{position:relative;aspect-ratio:16/10;border-radius:12px;overflow:hidden;border:1px solid var(--rule);background:#fff;--p:50%;user-select:none;touch-action:pan-y;box-shadow:0 30px 60px -36px rgba(40,30,10,.5)}
-.ba .l{position:absolute;inset:0;background:url(ba.webp) 0 0/100% 200% no-repeat}
+.ba .l{position:absolute;inset:0;background:url(/ba.webp) 0 0/100% 200% no-repeat}
 .ba .l.a{background-position:0 100%}
 .ba .l.b{clip-path:inset(0 calc(100% - var(--p)) 0 0)}
 .ba .bar{position:absolute;top:0;bottom:0;left:var(--p);width:2px;background:var(--ink);transform:translateX(-1px)}
@@ -219,6 +219,18 @@ footer{border-top:1px solid var(--rule);padding:22px 0 40px}footer .wrap{display
 .quote .lbl{display:block;margin-bottom:22px}
 .quote .away{margin-top:34px}
 @media (max-width:899px){.cform{grid-template-columns:1fr;gap:24px}.cform form{grid-template-columns:1fr}}
+
+/* featured teaser */
+.feat{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;list-style:none;margin:0;padding:0}
+.feat a{display:block;text-decoration:none;background:var(--card);border:1px solid var(--rule);border-radius:12px;overflow:hidden;transition:transform .3s,box-shadow .3s}
+.feat .img{display:block;aspect-ratio:16/10;border-bottom:1px solid var(--rule)}
+.feat .t{display:block;padding:16px 18px 18px}.feat h3{font-size:24px;line-height:1.1}.feat p{margin:6px 0 0;color:var(--mut);font-size:14.5px}
+.feat .st{display:block;margin-top:10px;font:12px var(--mono);color:var(--mut)}
+@media (hover:hover){.feat a:hover{transform:translateY(-4px);box-shadow:0 24px 40px -28px rgba(40,30,10,.5)}.feat a:hover h3{color:var(--acc)}}
+.more{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:26px}
+.more a.btn{white-space:nowrap}
+.wp-hd{padding-top:150px}
+@media (max-width:899px){.feat{grid-template-columns:1fr;gap:12px}.feat a{display:grid;grid-template-columns:118px 1fr;align-items:center;padding:8px 0 8px 8px}.feat .img{width:118px;aspect-ratio:16/10;border-bottom:0;border-right:1px solid var(--rule)}.feat .t{padding:12px 14px}.feat h3{font-size:19px}.feat p{font-size:13.5px}.feat .st{display:none}.wp-hd{padding-top:110px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
 </style>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer src="/_vercel/insights/script.js"></script>
@@ -227,7 +239,7 @@ footer{border-top:1px solid var(--rule);padding:22px 0 40px}footer .wrap{display
 <a class="skip" href="#main">Skip to content</a>
 <div class="mast"><div class="wrap mono"><span>Eustace Crentsil</span><span>Portfolio · Accra edition · <span id="date">2026</span></span><span>Web developer</span></div></div>
 <nav class="pill" aria-label="Main"><ul>
-<li><a href="#home" class="on"><span class="n">01</span>Home</a></li><li><a href="#about"><span class="n">02</span>About</a></li><li><a href="#resume"><span class="n">03</span>Resume</a></li><li><a href="#portfolio"><span class="n">04</span>Portfolio</a></li><li><a href="#contact"><span class="n">05</span>Contact</a></li></ul></nav>
+<li><a href="#home" class="on"><span class="n">01</span>Home</a></li><li><a href="#about"><span class="n">02</span>About</a></li><li><a href="#resume"><span class="n">03</span>Resume</a></li><li><a href="/work/" data-s="#portfolio"><span class="n">04</span>Portfolio</a></li><li><a href="#contact"><span class="n">05</span>Contact</a></li></ul></nav>
 <main id="main">
 <section class="hero" id="home"><div class="wrap">
  <div class="hgrid">
@@ -236,7 +248,7 @@ footer{border-top:1px solid var(--rule);padding:22px 0 40px}footer .wrap{display
    <h1 class="hello">Hello, I'm <em>Eustace Crentsil</em></h1>
    <p class="typed" aria-label="Creative web developer and project manager">Creative <span class="t" id="typed" aria-hidden="true">web developer</span></p>
    <p class="bio">I am a web developer and project manager who likes building scalable software and helping businesses go digital. I've led cross-functional teams and I care about shipping work that meets the client's needs, on time and within budget.</p>
-   <div class="btns"><a class="btn solid" href="#portfolio">View my work</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+   <div class="btns"><a class="btn solid" href="/work/">View my work</a><a class="btn ghost" href="#contact">Get in touch</a></div>
    <div class="soc"><a href="https://x.com/_yawofori" rel="me noopener" target="_blank">X / Twitter</a><a href="https://www.linkedin.com/in/eustace-crentsil" rel="me noopener" target="_blank">LinkedIn</a><a href="https://wa.me/233546496092" rel="noopener" target="_blank">WhatsApp</a></div>
   </div>
   <figure class="polaroid"><span class="tape" aria-hidden="true"></span><img src="/me-400.webp" srcset="/me-400.webp 400w, /me-800.webp 800w" sizes="(max-width:520px) 252px, 332px" width="800" height="800" alt="Portrait of Eustace Crentsil"><figcaption>Design / Code / Ideas</figcaption></figure>
@@ -296,9 +308,9 @@ footer{border-top:1px solid var(--rule);padding:22px 0 40px}footer .wrap{display
 </div></section>
 
 <section id="portfolio"><div class="wrap">
- <div class="sh rv"><span class="mono"><b>04</b> / Portfolio</span><div><h2>Selected work.</h2><p class="lead" style="margin-top:16px">Work I've done across web development, project management and digital products.</p></div></div>
- <div class="intro rv"><span class="mono" id="count">6 projects</span><div class="chips" role="group" aria-label="Filter projects by stack" id="chips"><button class="chip" aria-pressed="true" data-f="all">All</button><button class="chip" aria-pressed="false" data-f="wp">WordPress</button><button class="chip" aria-pressed="false" data-f="php">PHP &amp; MySQL</button><button class="chip" aria-pressed="false" data-f="react">React &amp; Node</button></div></div>
- <ul class="plist rv" id="plist"><li class="prow" data-s="php" data-y="0.0000%"><a href="/work/ttg-staffing"><span class="i">01</span><h3>TTG Staffing</h3><p>A go-to freelancer marketplace.</p><span class="st">HTML/CSS · PHP · MySQL</span><span class="ar" aria-hidden="true">→</span><span class="img spr" style="background-position:0 0.0000%" role="img" aria-label="Screenshot of TTG Staffing"></span></a></li><li class="prow" data-s="wp" data-y="11.1111%"><a href="/work/edu3dgh"><span class="i">02</span><h3>Edu3dcation Ghana</h3><p>3D technology classes for children.</p><span class="st">WordPress · PHP</span><span class="ar" aria-hidden="true">→</span><span class="img spr" style="background-position:0 11.1111%" role="img" aria-label="Screenshot of Edu3dcation Ghana"></span></a></li><li class="prow" data-s="wp" data-y="22.2222%"><a href="/work/iamnurseapproved"><span class="i">03</span><h3>Nurse Approved</h3><p>News, education and training for nurses.</p><span class="st">WordPress · PHP · Tutor LMS · Certify&#39;em</span><span class="ar" aria-hidden="true">→</span><span class="img spr" style="background-position:0 22.2222%" role="img" aria-label="Screenshot of Nurse Approved"></span></a></li><li class="prow" data-s="react" data-y="33.3333%"><a href="https://portal.damnmodz.com" target="_blank" rel="noopener"><span class="i">04</span><h3>DamnModz Portal</h3><p>A customer portal for a gaming mods business.</p><span class="st">React · Node.js · MySQL</span><span class="ar" aria-hidden="true">↗</span><span class="img spr" style="background-position:0 33.3333%" role="img" aria-label="Screenshot of DamnModz Portal"></span></a></li><li class="prow" data-s="wp" data-y="44.4444%"><a href="https://demo.clottware.com/templates/integritipr/" target="_blank" rel="noopener"><span class="i">05</span><h3>Integriti PR</h3><p><span class="tag c">Client</span>A site for a public relations firm.</p><span class="st">WordPress · PHP</span><span class="ar" aria-hidden="true">↗</span><span class="img spr" style="background-position:0 44.4444%" role="img" aria-label="Screenshot of Integriti PR"></span></a></li><li class="prow" data-s="php" data-y="55.5556%"><a href="https://demo.clottware.com/furniture-decor" target="_blank" rel="noopener"><span class="i">06</span><h3>Furniture e-commerce store</h3><p><span class="tag d">Demo</span>An online furniture and decor shop.</p><span class="st">HTML/CSS · PHP · MySQL</span><span class="ar" aria-hidden="true">↗</span><span class="img spr" style="background-position:0 55.5556%" role="img" aria-label="Screenshot of Furniture e-commerce store"></span></a></li></ul>
+ <div class="sh rv"><span class="mono"><b>04</b> / Portfolio</span><div><h2>Selected work.</h2><p class="lead" style="margin-top:16px">A few recent projects. The full list, with the sample sites, is on the work page.</p></div></div>
+ <ul class="feat rv" id="feat"><li><a href="/work/ttg-staffing"><span class="img spr" style="background-position:0 0.0000%" role="img" aria-label="Screenshot of TTG Staffing"></span><span class="t"><h3>TTG Staffing</h3><p>A go-to freelancer marketplace.</p><span class="st">HTML/CSS · PHP · MySQL</span></span></a></li><li><a href="/work/edu3dgh"><span class="img spr" style="background-position:0 11.1111%" role="img" aria-label="Screenshot of Edu3dcation Ghana"></span><span class="t"><h3>Edu3dcation Ghana</h3><p>3D technology classes for children.</p><span class="st">WordPress · PHP</span></span></a></li><li><a href="/work/iamnurseapproved"><span class="img spr" style="background-position:0 22.2222%" role="img" aria-label="Screenshot of Nurse Approved"></span><span class="t"><h3>Nurse Approved</h3><p>News, education and training for nurses.</p><span class="st">WordPress · PHP · Tutor LMS · Certify&#39;em</span></span></a></li></ul>
+ <div class="more rv"><span class="mono">6 projects · 15 sample sites</span><a class="btn solid" href="/work/">See all work →</a></div>
 </div></section>
 
 <section id="services"><div class="wrap">
@@ -336,8 +348,8 @@ footer{border-top:1px solid var(--rule);padding:22px 0 40px}footer .wrap{display
  <div class="sh rv"><span class="mono">Concept work</span><div><h2>Sample sites.</h2><p class="lead" style="margin-top:16px">On the side, I build sample sites for small US service businesses that don't have one yet, so the owner can see what theirs could look like. Drag the handle.</p></div></div>
  <div class="ba rv" id="ba"><div class="l a" role="img" aria-label="After: a sample site built for Alloyd Garage Door, Duncanville TX"></div><div class="l b" role="img" aria-label="Before: illustration of a search result for a business with no website"></div><div class="bar" aria-hidden="true"></div><span class="tg b">Before</span><span class="tg a">After</span><input type="range" min="0" max="100" value="50" aria-label="Compare before and after"></div>
  <p class="cap">Before: an illustration of a search result for a business with no website. After: the sample site I built for Alloyd Garage Door, Duncanville TX, captured at 2x.</p>
+ <div class="more"><span></span><a class="btn ghost" href="/work/#samples">See all 15 sample sites →</a></div>
 </div>
- <div class="wrap"><div class="wall rv"><span class="mono hint">The wall · drag or scroll · 15 sample sites</span><div class="rail" id="rail"><div class="frame"><a class="fl" href="https://preview-exceptional-lawn-care.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 63.1579%" role="img" aria-label="Sample site for Exceptional Lawn Care"></div><b>Exceptional Lawn Care</b></a><small>Lawn care · Fort Worth TX</small><a class="cs" href="/work/exceptional-lawn-care">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-clear-water-pool-service.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 63.1579%" role="img" aria-label="Sample site for Clear Water Pool Service"></div><b>Clear Water Pool Service</b></a><small>Pool · Arlington TX</small><a class="cs" href="/work/clear-water-pool-service">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-jaylee-electric.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 68.4211%" role="img" aria-label="Sample site for Jaylee Electric"></div><b>Jaylee Electric</b></a><small>Electrical · Fort Worth TX</small><a class="cs" href="/work/jaylee-electric">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-foxhollow-lawn-care.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 68.4211%" role="img" aria-label="Sample site for Foxhollow Lawn Care"></div><b>Foxhollow Lawn Care</b></a><small>Lawn care · Charlotte NC</small><a class="cs" href="/work/foxhollow-lawn-care">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-sumbis-cleaning.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 73.6842%" role="img" aria-label="Sample site for Sumbi's Cleaning"></div><b>Sumbi's Cleaning</b></a><small>Cleaning · Raleigh NC</small><a class="cs" href="/work/sumbis-cleaning">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-flores-pools-more.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 73.6842%" role="img" aria-label="Sample site for Flores Pools &amp; More"></div><b>Flores Pools &amp; More</b></a><small>Pool · San Antonio TX</small><a class="cs" href="/work/flores-pools-more">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-alloyd-garage-door.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 78.9474%" role="img" aria-label="Sample site for Alloyd Garage Door"></div><b>Alloyd Garage Door</b></a><small>Garage doors · Duncanville TX</small><a class="cs" href="/work/alloyd-garage-door">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-2brogarage-doors.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 78.9474%" role="img" aria-label="Sample site for 2BroGarage Doors"></div><b>2BroGarage Doors</b></a><small>Garage doors · North Carolina</small><a class="cs" href="/work/2brogarage-doors">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-dreher-electrical.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 84.2105%" role="img" aria-label="Sample site for Dreher Electrical"></div><b>Dreher Electrical</b></a><small>Electrical · Phoenix AZ</small><a class="cs" href="/work/dreher-electrical">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-blue-wave-pool-service.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 84.2105%" role="img" aria-label="Sample site for Blue Wave Pool Service"></div><b>Blue Wave Pool Service</b></a><small>Pool · Tampa FL</small><a class="cs" href="/work/blue-wave-pool-service">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-splash-n-dash-pools.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 89.4737%" role="img" aria-label="Sample site for Splash n Dash Pools"></div><b>Splash n Dash Pools</b></a><small>Pool · Sacramento CA</small><a class="cs" href="/work/splash-n-dash-pools">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-eckert-electric.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 89.4737%" role="img" aria-label="Sample site for Eckert Electric"></div><b>Eckert Electric</b></a><small>Electrical · Marietta GA</small><a class="cs" href="/work/eckert-electric">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-devcraft-handyman.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 94.7368%" role="img" aria-label="Sample site for Devcraft Handyman"></div><b>Devcraft Handyman</b></a><small>Handyman · Denver CO</small><a class="cs" href="/work/devcraft-handyman">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-luke-john-electric.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:100% 94.7368%" role="img" aria-label="Sample site for Luke &amp; John Electric"></div><b>Luke &amp; John Electric</b></a><small>Electrical · Atlanta GA</small><a class="cs" href="/work/luke-john-electric">Case study →</a></div><div class="frame"><a class="fl" href="https://preview-brittanis-custom-cleaning.vercel.app" target="_blank" rel="noopener"><div class="pic spr" style="background-size:200% auto;background-position:0% 100.0000%" role="img" aria-label="Sample site for Brittani's Custom Cleaning"></div><b>Brittani's Custom Cleaning</b></a><small>Cleaning · Severance CO</small><a class="cs" href="/work/brittanis-custom-cleaning">Case study →</a></div></div></div></div>
 </section>
 
 <section class="contact" id="contact"><div class="wrap">
@@ -372,7 +384,7 @@ footer{border-top:1px solid var(--rule);padding:22px 0 40px}footer .wrap{display
 (()=>{
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const tz=(z,o)=>new Intl.DateTimeFormat('en-GB',Object.assign({timeZone:z},o)).format(new Date());
-const d=document.getElementById('date');d.textContent=tz('Africa/Accra',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+const d=document.getElementById('date');if(d)d.textContent=tz('Africa/Accra',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
 function tick(){
  document.getElementById('acc').textContent=tz('Africa/Accra',{hour:'2-digit',minute:'2-digit'})+' GMT';
  document.getElementById('ny').textContent=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'}).format(new Date());
@@ -386,20 +398,20 @@ function tick(){
  else if(h>=18&&h<23){st.textContent='Evening in Accra';sd.textContent='I usually reply the same day.'}
  else{st.textContent='Asleep, probably';sd.textContent="I'll reply in the morning."}
 }
-tick();setInterval(tick,30000);
+if(document.getElementById('acc')){tick();setInterval(tick,30000)}
 // typed
 const words=['web developer','project manager','problem solver'],el=document.getElementById('typed');
-if(!RM){let w=0,c=words[0].length,del=true;const step=()=>{const s=words[w];if(del){c--;if(c<=0){del=false;w=(w+1)%words.length}}else{c++;if(c>=words[w].length){del=true;el.textContent=words[w];return setTimeout(step,2200)}}el.textContent=words[w].slice(0,Math.max(0,c));setTimeout(step,del?40:80)};setTimeout(step,2400)}
+if(!RM&&el){let w=0,c=words[0].length,del=true;const step=()=>{const s=words[w];if(del){c--;if(c<=0){del=false;w=(w+1)%words.length}}else{c++;if(c>=words[w].length){del=true;el.textContent=words[w];return setTimeout(step,2200)}}el.textContent=words[w].slice(0,Math.max(0,c));setTimeout(step,del?40:80)};setTimeout(step,2400)}
 // reveal
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
 document.querySelectorAll('.rv').forEach(e=>RM?e.classList.add('in'):io.observe(e));
 // nav active
 const links=[...document.querySelectorAll('nav.pill a')],map={services:'portfolio',automation:'portfolio',concepts:'portfolio'};
-const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=map[e.target.id]||e.target.id;links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+id))}}),{rootMargin:'-45% 0px -50% 0px'});
-document.querySelectorAll('main section').forEach(s=>so.observe(s));
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=map[e.target.id]||e.target.id;links.forEach(a=>a.classList.toggle('on',(a.dataset.s||a.getAttribute('href'))=='#'+id))}}),{rootMargin:'-45% 0px -50% 0px'});
+if(!document.body.classList.contains('wpage'))document.querySelectorAll('main section').forEach(s=>so.observe(s));
 // filters
 const rows=[...document.querySelectorAll('.prow')],cnt=document.getElementById('count');
-document.getElementById('chips').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('#chips .chip').forEach(c=>c.setAttribute('aria-pressed',c===b));let n=0;rows.forEach(r=>{const on=b.dataset.f=='all'||r.dataset.s.split(' ').includes(b.dataset.f);r.classList.toggle('hide',!on);n+=on});cnt.textContent=n+(n==1?' project':' projects')});
+document.getElementById('chips')?.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('#chips .chip').forEach(c=>c.setAttribute('aria-pressed',c===b));let n=0;rows.forEach(r=>{const on=b.dataset.f=='all'||r.dataset.s.split(' ').includes(b.dataset.f);r.classList.toggle('hide',!on);n+=on});cnt.textContent=n+(n==1?' project':' projects')});
 // peek
 const pk=document.getElementById('peek');let tx=0,ty=0,px=0,py=0,raf=0;
 if(matchMedia('(hover:hover) and (min-width:900px)').matches){
@@ -408,16 +420,16 @@ if(matchMedia('(hover:hover) and (min-width:900px)').matches){
  function mv(){px+=(tx-px)*(RM?1:.18);py+=(ty-py)*(RM?1:.18);pk.style.translate=px+'px '+py+'px';raf=Math.abs(tx-px)+Math.abs(ty-py)>.5?requestAnimationFrame(mv):0}
 }
 // before/after
-const ba=document.getElementById('ba'),rg=ba.querySelector('input');rg.addEventListener('input',()=>ba.style.setProperty('--p',rg.value+'%'));
+const ba=document.getElementById('ba'),rg=ba&&ba.querySelector('input');rg&&rg.addEventListener('input',()=>ba.style.setProperty('--p',rg.value+'%'));
 // rail drag
 const rail=document.getElementById('rail');let down=false,sx=0,sl=0,moved=0;
-rail.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse')return;down=true;moved=0;sx=e.clientX;sl=rail.scrollLeft});
+rail&&rail.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse')return;down=true;moved=0;sx=e.clientX;sl=rail.scrollLeft});
 addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx;if(Math.abs(dx)>4){moved=1;rail.classList.add('drag')}rail.scrollLeft=sl-dx});
 addEventListener('pointerup',()=>{down=false;rail.classList.remove('drag')});
-rail.addEventListener('click',e=>{if(moved){e.preventDefault();moved=0}},true);
-rail.addEventListener('dragstart',e=>e.preventDefault());
+rail&&rail.addEventListener('click',e=>{if(moved){e.preventDefault();moved=0}},true);
+rail&&rail.addEventListener('dragstart',e=>e.preventDefault());
 // copy
-const cp=document.getElementById('copy');cp.addEventListener('click',()=>{(navigator.clipboard?navigator.clipboard.writeText('eustaceocrentsil@gmail.com'):Promise.reject()).then(()=>cp.textContent='Copied',()=>cp.textContent='eustaceocrentsil@gmail.com')});
+const cp=document.getElementById('copy');cp&&cp.addEventListener('click',()=>{(navigator.clipboard?navigator.clipboard.writeText('eustaceocrentsil@gmail.com'):Promise.reject()).then(()=>cp.textContent='Copied',()=>cp.textContent='eustaceocrentsil@gmail.com')});
 })();
 
 // automation demo (scripted, nothing sent)
