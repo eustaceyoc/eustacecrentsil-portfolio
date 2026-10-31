@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Case study: Luke &amp; John Electric (concept) · Eustace Crentsil</title>
+<meta name="description" content="How I designed and built a concept website for Luke &amp; John Electric, a family electrical business in Atlanta, Georgia. A sample site, not commissioned.">
+<link rel="canonical" href="https://eustacecrentsil.vercel.app/work/luke-john-electric">
+<meta property="og:type" content="article"><meta property="og:url" content="https://eustacecrentsil.vercel.app/work/luke-john-electric">
+<meta property="og:title" content="Case study: Luke &amp; John Electric (concept site)">
+<meta property="og:description" content="An ivory, navy and brass concept website for an Atlanta family electrician, with elegant serif type. Design decisions and screenshots.">
+<meta property="og:image" content="https://eustacecrentsil.vercel.app/work/luke-john-electric/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@_yawofori">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%231c1b18%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-family=%27Georgia%27 font-size=%2716%27 fill=%27%23f4f0e6%27 text-anchor=%27middle%27%3EEC%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#f4f0e6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Manrope:wght@400&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "Luke & John Electric concept website", "author": {"@type": "Person", "name": "Eustace Crentsil", "url": "https://eustacecrentsil.vercel.app/"}, "dateCreated": "2026-10", "url": "https://eustacecrentsil.vercel.app/work/luke-john-electric"}</script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{--bg:#f4f0e6;--bg2:#ebe5d7;--card:#fbf9f4;--ink:#1c1b18;--mut:#6a655a;--rule:#d6cebd;--acc:#2b45b8;--acc2:#e8ecfb;
+--serif:"Newsreader",Georgia,serif;--sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"Geist Mono",ui-monospace,Menlo,monospace}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}a{color:inherit}
+::selection{background:var(--acc);color:#fff}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:8px 12px;z-index:99}.skip:focus{left:8px}
+.wrap{width:min(1120px,100% - 48px);margin:0 auto}
+.narrow{max-width:680px}
+.mono{font:500 12px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.015em;margin:0}
+p{margin:0 0 1em}
+.mast{border-bottom:1px solid var(--ink)}
+.mast .wrap{display:flex;justify-content:space-between;gap:16px;padding:10px 0}
+nav.pill{position:sticky;top:12px;z-index:20;display:flex;justify-content:center;margin:14px 0 0;pointer-events:none}
+nav.pill ul{pointer-events:auto;display:flex;gap:2px;list-style:none;margin:0;padding:5px;background:rgba(251,249,244,.86);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--rule);border-radius:999px}
+nav.pill a{display:block;text-decoration:none;font-size:14px;padding:7px 14px;border-radius:999px;color:var(--mut);white-space:nowrap}
+nav.pill a:hover{color:var(--ink)}nav.pill a.on{background:var(--ink);color:var(--bg)}
+/* head */
+.top{padding:64px 0 0}
+.crumb{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.crumb a{text-decoration:none;border-bottom:1px solid var(--rule)}.crumb a:hover{color:var(--ink);border-color:var(--ink)}
+.flag{display:inline-block;margin:22px 0 0;font:500 12px/1.5 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:#7a3b12;background:#fbecd9;border:1px solid #ecc9a0;border-radius:6px;padding:7px 11px}
+h1{font-size:clamp(42px,6.4vw,84px);line-height:1;margin:22px 0 0}
+h1 em{font-style:italic;color:var(--acc)}
+.dek{font-family:var(--serif);font-size:clamp(20px,2.2vw,26px);line-height:1.35;color:#3d3a33;max-width:760px;margin:22px 0 0}
+.facts{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);margin:44px 0 0}
+.facts div{padding:14px 16px 16px 0}
+.facts dt{font:500 11px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.facts dd{margin:6px 0 0;font-size:15px}
+/* figures */
+.hero-fig{margin:48px 0 0;display:grid;grid-template-columns:1fr 250px;gap:28px;align-items:end}
+.browser{background:#fff;border:1px solid var(--rule);border-radius:12px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(60,48,20,.35)}
+.browser .bar{display:flex;align-items:center;gap:6px;padding:10px 12px;border-bottom:1px solid #eee7d8;background:#faf8f2}
+.browser .bar i{width:9px;height:9px;border-radius:50%;background:#ddd5c4}
+.browser .bar span{margin-left:10px;font:12px var(--mono);color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.phone{background:#1c1b18;border-radius:34px;padding:9px;box-shadow:0 30px 50px -26px rgba(40,30,10,.5)}
+.phone img{border-radius:26px}
+figcaption{font:12px/1.5 var(--mono);color:var(--mut);margin-top:10px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:28px 0 0}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font:500 15px var(--sans);padding:12px 20px;border-radius:999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;transition:transform .2s,background .2s,color .2s}
+.btn.solid{background:var(--ink);color:var(--bg)}.btn:hover{transform:translateY(-2px)}.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+/* sections */
+section{padding:96px 0 0}
+.sh{display:grid;grid-template-columns:140px 1fr;gap:24px;border-top:1px solid var(--rule);padding-top:18px;margin-bottom:32px}
+.sh .mono b{color:var(--ink);font-weight:500}
+h2{font-size:clamp(30px,3.8vw,46px);line-height:1.08}
+.body{display:grid;grid-template-columns:140px 1fr;gap:24px}
+.body .txt{max-width:680px;font-size:17px;color:#2f2d28}
+.body .txt h3{font-size:24px;margin:34px 0 10px}
+.body .txt ul{padding-left:1.1em;margin:0 0 1em}.body .txt li{margin:.3em 0}
+.src{font:12px/1.5 var(--mono);color:var(--mut)}
+/* palette + type */
+.sw{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0 8px}
+.sw div{border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:var(--card)}
+.sw i{display:block;height:70px}
+.sw span{display:block;padding:8px 10px;font:11px/1.4 var(--mono);color:var(--mut)}
+.sw b{display:block;color:var(--ink);font:500 12px var(--sans)}
+.spec{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 8px}
+.spec div{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:18px}
+.spec .big{font-size:44px;line-height:1;color:#17231d}
+.spec .big i{color:#3f6f55}
+.wide-fig{margin:40px 0 0}
+.wide-fig .frame{background:#fff;border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+.duo{display:grid;grid-template-columns:1.6fr 1fr;gap:24px;margin:40px 0 0;align-items:start}
+.duo .frame{background:#fff;border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+/* live */
+.live{margin:28px 0 0;border:1px dashed var(--rule);border-radius:12px;background:var(--card);padding:22px}
+.live iframe{width:100%;height:640px;border:1px solid var(--rule);border-radius:10px;background:#fff;margin-top:16px;display:block}
+.note{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--acc);border-radius:8px;padding:16px 18px;font-size:15px;color:#3d3a33;margin:28px 0 0}
+/* pager */
+.pager{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:96px 0 0;border-top:1px solid var(--ink);padding-top:20px}
+.pager a,.pager div{display:block;text-decoration:none;padding:18px;border:1px solid var(--rule);border-radius:12px;background:var(--card)}
+.pager a:hover{border-color:var(--ink)}
+.pager b{display:block;font:400 22px/1.2 var(--serif);margin-top:6px}
+.pager .r{text-align:right}
+footer{border-top:1px solid var(--rule);padding:22px 0 40px;margin-top:64px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+footer a{text-decoration:none}
+@media(max-width:900px){.facts{grid-template-columns:repeat(2,1fr)}.facts div:last-child{grid-column:1/-1}.hero-fig{grid-template-columns:1fr}.hero-fig .phone{max-width:250px;margin:0 auto}.sh,.body{grid-template-columns:1fr;gap:8px}.duo{grid-template-columns:1fr}.sw{grid-template-columns:repeat(3,1fr)}.spec{grid-template-columns:1fr}.live iframe{height:520px}}
+@media(max-width:520px){.mast .wrap>span:nth-child(2){display:none}nav.pill a{padding:7px 11px;font-size:13px}.pager{grid-template-columns:1fr}.pager .r{text-align:left}.sw{grid-template-columns:repeat(2,1fr)}.top{padding-top:44px}section{padding-top:72px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* framing */
+.browser img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.phone img{display:block;width:100%;height:auto;aspect-ratio:390/844;object-fit:cover;object-position:top;border-radius:24px}
+.frame img{display:block;width:100%;height:auto}
+.duo figure,.hero-fig figure{min-width:0}
+@media(max-width:900px){.duo figure:last-child .frame{max-width:320px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="mast"><div class="wrap mono"><span>Eustace Crentsil</span><span>Case study · 15</span><span>Web developer</span></div></div>
+<nav class="pill" aria-label="Main"><ul>
+<li><a href="/">Home</a></li><li><a href="/#portfolio" class="on">Work</a></li><li><a href="/#resume">Resume</a></li><li><a href="/#contact">Contact</a></li></ul></nav>
+<main id="main">
+<header class="top"><div class="wrap">
+ <p class="crumb mono"><a href="/#portfolio">Work</a><span>/</span><span>Sample sites</span><span>/</span><span>Luke &amp; John Electric</span></p>
+ <p class="flag">Concept project / sample site · not commissioned · not affiliated with the business</p>
+ <h1>An ivory, navy and brass website for <em>Luke &amp; John Electric</em></h1>
+ <p class="dek">A family electrical business in Atlanta, Georgia. It had no website, so I built a sample site with the feel of a well-made home.</p>
+ <dl class="facts">
+  <div><dt>Business</dt><dd>Residential electrical</dd></div>
+  <div><dt>Location</dt><dd>Atlanta, GA</dd></div>
+  <div><dt>My role</dt><dd>Design, copy, build</dd></div>
+  <div><dt>Stack</dt><dd>HTML, CSS, JS · Vercel</dd></div>
+  <div><dt>When</dt><dd>October 2026</dd></div>
+ </dl>
+ <div class="hero-fig">
+  <figure style="margin:0"><div class="browser"><div class="bar"><i></i><i></i><i></i><span>preview-luke-john-electric.vercel.app</span></div><img src="/work/luke-john-electric/desktop.webp" width="2880" height="1800" alt="Desktop view of the sample site: the headline &#x27;Residential electrical, done with care.&#x27; in a large serif on ivory, with a light-switch toggle and a consultation button."></div><figcaption>Desktop, 1440 × 900</figcaption></figure>
+  <figure style="margin:0"><div class="phone"><img src="/work/luke-john-electric/mobile.webp" width="780" height="1688" alt="Mobile view of the same hero, with the headline and button stacked."></div><figcaption>Mobile, 390 × 844</figcaption></figure>
+ </div>
+ <div class="actions">
+  <a class="btn solid" href="https://preview-luke-john-electric.vercel.app" target="_blank" rel="noopener">Open the live preview ↗</a>
+  <a class="btn ghost" href="#live">Try it on this page</a>
+ </div>
+</div></header>
+
+<section id="business"><div class="wrap">
+ <div class="sh"><span class="mono"><b>01</b> / The business</span><h2>A family business, licensed and insured</h2></div>
+ <div class="body"><span></span><div class="txt">
+  <p>Luke &amp; John Electric is a family electrical business in Atlanta, Georgia. Its Nextdoor page invites people to call it to "repair, install, and upgrade anything electrical in your home", describes it as licensed and insured, and lists its licence number, EN217337. Neighbours mention lighting, outlets, recessed lighting and panel replacement.</p>
+<p>It was a Nextdoor Neighborhood Fave every year from 2021 to 2025, with 218 faves, and has a 4.9 rating on Google from 67 reviews.</p>
+  <p class="src">Sources: the business's Nextdoor page and Google listing, checked October 2026.</p>
+ </div></div>
+</div></section>
+
+<section id="problem"><div class="wrap">
+ <div class="sh"><span class="mono"><b>02</b> / The problem</span><h2>Higher-end work, everyday listings</h2></div>
+ <div class="body"><span></span><div class="txt">
+  <p>Neighbours describe careful, thorough work, like panel replacements with the circuits labelled afterwards. But it's all on listing sites, next to every other electrician. I wanted a site that feels as careful as the work. The public listings show different phone numbers and hours, so I left those off and pointed people to email instead.</p>
+ </div></div>
+</div></section>
+
+<section id="approach"><div class="wrap">
+ <div class="sh"><span class="mono"><b>03</b> / Approach</span><h2>Like a well-made home</h2></div>
+ <div class="body"><span></span><div class="txt">
+  <p>Ivory, deep navy and brass, the colours of good fixtures, with an elegant serif and plenty of space. Sections are numbered in Roman numerals (I to IV), the services are "Two things done well." (lighting and panel upgrades), and the hero has a small light-switch toggle that turns the page's light on.</p>
+  <h3>Palette</h3>
+  <p>A warm ivory for the page, a deep navy for type and dark sections, and brass for accents and rules, with a lighter brass for highlights on navy.</p>
+  <div class="sw" role="list">
+   <div role="listitem"><i style="background:#FBF8F1"></i><span><b>Ivory</b>#FBF8F1</span></div>
+   <div role="listitem"><i style="background:#14213D"></i><span><b>Navy</b>#14213D</span></div>
+   <div role="listitem"><i style="background:#B08D57"></i><span><b>Brass</b>#B08D57</span></div>
+   <div role="listitem"><i style="background:#d9c49c"></i><span><b>Light brass</b>#d9c49c</span></div>
+   <div role="listitem"><i style="background:#5b6377"></i><span><b>Muted</b>#5b6377</span></div>
+  </div>
+  <h3>Type</h3>
+  <p>Headlines are set in Cormorant Garamond, a refined, high-contrast serif, often in italics. Body text and labels are in Manrope, a modern sans.</p>
+  <div class="spec">
+   <div><span class="mono">Display · Cormorant Garamond</span><p class="big" style="font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;margin:12px 0 0;color:#14213D">Residential electrical, <i style="color:#B08D57">done with care.</i></p></div>
+   <div><span class="mono">Text · Manrope</span><p style="font-family:'Manrope',system-ui,sans-serif;margin:12px 0 0;font-size:17px;color:#14213D">A family electrical business. Call us to repair, install, and upgrade anything electrical in your home.</p></div>
+   
+  </div>
+  <h3>Layout</h3>
+  <ul>
+   <li><b>Hero.</b> The headline, a consultation button and a light-switch toggle, next to facts: family-run, Atlanta, Neighborhood Fave 2021 to 2025.</li>
+   <li><b>Services.</b> "Two things done well." Tabs for lighting, panel upgrades and anything else electrical, each with jobs and where they were mentioned.</li>
+   <li><b>Licence.</b> A navy band: licensed and insured, with the licence number from the Nextdoor page.</li>
+   <li><b>Neighbours' words.</b> A three-slide quote carousel, then the faves, awards and Google rating.</li>
+   <li><b>Consultation.</b> "Tell us about your home." An email form, with the email address for anyone who'd rather write directly.</li>
+  </ul>
+ </div></div>
+ <div class="duo">
+  <figure style="margin:0"><div class="frame"><img src="/work/luke-john-electric/section-a.webp" width="2880" height="2025" loading="lazy" alt="Tabs and a list of lighting jobs, each with its source, under &#x27;Two things done well.&#x27;"></div><figcaption>Services: two things done well</figcaption></figure>
+  <figure style="margin:0"><div class="frame"><img src="/work/luke-john-electric/mobile-section.webp" width="780" height="1600" loading="lazy" alt="The services tabs on mobile."></div><figcaption>The services on a phone</figcaption></figure>
+ </div>
+ <figure class="wide-fig"><div class="frame"><img src="/work/luke-john-electric/section-b.webp" width="2880" height="1485" loading="lazy" alt="A navy band with &#x27;Licensed &amp; insured&#x27; and the licence number in brass."></div><figcaption>The licence, given its own band</figcaption></figure>
+ <div class="body" style="margin-top:40px"><span></span><div class="txt">
+  <h3>Interactions</h3>
+  <p>The light switch in the hero turns on a warm glow, the brass rules draw themselves in as you scroll, and the services work as tabs. The quotes carousel has arrow buttons and a counter, and the form checks each field. With reduced motion turned on, the animations are switched off.</p>
+  <h3>Mobile</h3>
+  <p>Below 900 px the hero and grids stack, and below 520 px the type and spacing tighten. A consultation button stays fixed to the bottom of the screen.</p>
+ </div></div>
+</div></section>
+
+<section id="build"><div class="wrap">
+ <div class="sh"><span class="mono"><b>04</b> / Build</span><h2>One small file, hosted on Vercel</h2></div>
+ <div class="body"><span></span><div class="txt">
+  <p>The site is a single static HTML file with its CSS and a little plain JavaScript inside it. No framework and no build step. It's hosted on Vercel.</p>
+  <ul>
+   <li><b>Light.</b> The HTML file is about 30 KB, and it uses two font families from Google Fonts.</li>
+   <li><b>Accessible.</b> Real headings and landmarks, tabs and carousel controls that work with a keyboard, labelled form fields, and the reduced-motion setting respected.</li>
+  </ul>
+  <h3>Safeguards</h3>
+  <p>Because this is a sample site for a real business that didn't ask for it, I put a few things in place:</p>
+  <ul>
+   <li>A banner at the top and a line in the footer say it is a sample site, not affiliated with or published by the business.</li>
+   <li>It's hidden from search engines with a <code>noindex</code> meta tag.</li>
+   <li>The form is a demo. It sends nothing and says so.</li>
+   <li>Every fact comes from the business's public listings, and the page says where each one came from.</li>
+   <li>No photos or logos are used.</li>
+  </ul>
+ </div></div>
+ <div class="body"><span></span><div class="txt" style="max-width:none;width:100%">
+  <div class="live" id="live">
+   <p class="mono" style="margin:0 0 6px">Live preview</p>
+   <p style="margin:0">You can use the real sample site here. It's the same page as the link above.</p>
+   <div class="actions" style="margin-top:14px"><button class="btn solid" type="button" id="load">Load the live preview</button><a class="btn ghost" href="https://preview-luke-john-electric.vercel.app" target="_blank" rel="noopener">Open in a new tab ↗</a></div>
+   <div id="slot"></div>
+  </div>
+  <p class="note">This is a concept I made on my own to show the business what a website could look like. Luke &amp; John Electric didn't commission it and hasn't endorsed it. There are no results to report because the site isn't live for the business.</p>
+ </div></div>
+ <nav class="pager" aria-label="Case studies">
+  <a href="/work/devcraft-handyman"><span class="mono">← Previous case study</span><b>Devcraft Handyman</b></a>
+  <a class="r" href="/#portfolio"><span class="mono">Back →</span><b>All sample sites</b></a>
+ </nav>
+</div></section>
+</main>
+<footer><div class="wrap mono"><span>© 2026 Eustace Crentsil</span><a href="/">eustacecrentsil.vercel.app</a><a href="#main">Back to top ↑</a></div></footer>
+<script>
+document.getElementById('load').addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://preview-luke-john-electric.vercel.app';f.title="Live preview of the Luke & John Electric sample site";f.loading='lazy';document.getElementById('slot').appendChild(f);this.disabled=true;this.textContent='Preview loaded'});
+</script>
+</body>
+</html>
