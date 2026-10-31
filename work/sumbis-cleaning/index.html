@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Case study: Sumbi&#x27;s Cleaning (concept) · Eustace Crentsil</title>
+<title>Sumbi&#x27;s Cleaning concept website: case study · Eustace Crentsil</title>
 <meta name="description" content="How I designed and built a concept website for Sumbi&#x27;s Cleaning, a cleaning business in Raleigh, North Carolina. A sample site, not commissioned.">
-<link rel="canonical" href="https://eustacecrentsil.vercel.app/work/sumbis-cleaning">
-<meta property="og:type" content="article"><meta property="og:url" content="https://eustacecrentsil.vercel.app/work/sumbis-cleaning">
-<meta property="og:title" content="Case study: Sumbi&#x27;s Cleaning (concept site)">
-<meta property="og:description" content="A lilac and mint concept website for a Raleigh cleaning business, built on a bento grid. Design decisions, build notes and screenshots.">
+<link rel="canonical" href="https://eustacecrentsil.vercel.app/work/sumbis-cleaning/">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Eustace Crentsil"><meta property="og:locale" content="en_GB"><meta property="og:url" content="https://eustacecrentsil.vercel.app/work/sumbis-cleaning/">
+<meta property="og:title" content="Sumbi&#x27;s Cleaning concept website: case study · Eustace Crentsil">
+<meta property="og:description" content="How I designed and built a concept website for Sumbi&#x27;s Cleaning, a cleaning business in Raleigh, North Carolina. A sample site, not commissioned.">
 <meta property="og:image" content="https://eustacecrentsil.vercel.app/work/sumbis-cleaning/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@_yawofori">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sumbi&#x27;s Cleaning concept website: case study · Eustace Crentsil"><meta name="twitter:description" content="How I designed and built a concept website for Sumbi&#x27;s Cleaning, a cleaning business in Raleigh, North Carolina. A sample site, not commissioned."><meta name="twitter:site" content="@_yawofori">
 <link rel="icon" href="/favicon.ico?v=2" sizes="48x48"><link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
 <meta name="theme-color" content="#f4f0e6">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "Sumbi's Cleaning concept website", "author": {"@type": "Person", "name": "Eustace Crentsil", "url": "https://eustacecrentsil.vercel.app/"}, "dateCreated": "2026-10", "url": "https://eustacecrentsil.vercel.app/work/sumbis-cleaning"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "CreativeWork", "name": "Sumbi's Cleaning concept website", "dateCreated": "2026-10", "url": "https://eustacecrentsil.vercel.app/work/sumbis-cleaning/", "description": "How I designed and built a concept website for Sumbi's Cleaning, a cleaning business in Raleigh, North Carolina. A sample site, not commissioned.", "genre": "Concept case study", "image": "https://eustacecrentsil.vercel.app/work/sumbis-cleaning/og.jpg", "creator": {"@type": "Person", "name": "Eustace Crentsil", "url": "https://eustacecrentsil.vercel.app/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://eustacecrentsil.vercel.app/"}, {"@type": "ListItem", "position": 2, "name": "Work", "item": "https://eustacecrentsil.vercel.app/work/"}, {"@type": "ListItem", "position": 3, "name": "Sumbi's Cleaning", "item": "https://eustacecrentsil.vercel.app/work/sumbis-cleaning/"}]}]}</script>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script defer src="/_vercel/insights/script.js"></script>
 <style>
 :root{--bg:#f4f0e6;--bg2:#ebe5d7;--card:#fbf9f4;--ink:#1c1b18;--mut:#6a655a;--rule:#d6cebd;--acc:#2b45b8;--acc2:#e8ecfb;
@@ -108,28 +108,50 @@ footer a{text-decoration:none}
 .frame img{display:block;width:100%;height:auto}
 .duo figure,.hero-fig figure{min-width:0}
 @media(max-width:900px){.duo figure:last-child .frame{max-width:320px}}
+
+.glh{margin:44px 0 0;color:var(--ink)}.glh+.facts{margin-top:10px}
+.facts.g{grid-template-columns:repeat(3,1fr)}.facts.g div{padding-right:24px}
+.facts.auto{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.cx{max-width:760px;margin:18px 0 0;font-size:15px;color:#3d3a33;border-left:3px solid #ecc9a0;padding:2px 0 2px 14px}
+.cx a{color:var(--acc)}
+.ctab{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;margin:72px 0 0;padding:28px;border:1px solid var(--ink);border-radius:14px;background:var(--card)}
+.ctab .h3{font-size:clamp(24px,2.6vw,32px);line-height:1.15;margin:6px 0 8px}.ctab p{margin:0;color:#3d3a33}.ctab .b{display:flex;gap:10px;flex-wrap:wrap}
+.pager{grid-template-columns:1fr auto 1fr;align-items:stretch}.pager .mid{display:flex;align-items:center;justify-content:center;text-align:center}
+.body .txt h3:first-child{margin-top:0}
+.duo .frame img{aspect-ratio:16/10;object-fit:cover;object-position:top}
+.duo figure:last-child .frame img{aspect-ratio:390/800}
+.btn:focus-visible{outline-offset:4px}
+@media(max-width:900px){.facts.g{grid-template-columns:1fr 1fr}.facts.g div:last-child{grid-column:auto}.ctab{grid-template-columns:1fr}}
+@media(max-width:520px){.facts.g{grid-template-columns:1fr}.pager{grid-template-columns:1fr}.pager .mid{order:3}}
+@media(prefers-reduced-motion:reduce){.btn:hover{transform:none}}
+nav.pill a.cta{background:var(--acc);color:#fff}nav.pill a.cta:hover{color:#fff;background:#1f3596}nav.pill a.cta.on{background:var(--ink)}@media(max-width:520px){nav.pill li.xs{display:none}nav.pill a{padding:7px 12px;font-size:13.5px}}footer .fl{display:flex;gap:16px;flex-wrap:wrap}footer .fl a{text-decoration:none;border-bottom:1px solid var(--rule)}footer .fl a:hover{border-color:var(--ink)}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <div class="mast"><div class="wrap mono"><span>Eustace Crentsil</span><span>Case study · 06</span><span>Web developer</span></div></div>
 <nav class="pill" aria-label="Main"><ul>
-<li><a href="/">Home</a></li><li><a href="/work/" class="on">Work</a></li><li><a href="/#resume">Resume</a></li><li><a href="/#contact">Contact</a></li></ul></nav>
+<li><a href="/">Home</a></li><li><a href="/services/">Services</a></li><li><a href="/work/" class="on" aria-current="page">Work</a></li><li class="xs"><a href="/#resume">Resume</a></li><li><a href="/#contact" class="cta">Contact</a></li></ul></nav>
 <main id="main">
 <header class="top"><div class="wrap">
- <p class="crumb mono"><a href="/work/">Work</a><span>/</span><span>Sample sites</span><span>/</span><span>Sumbi's Cleaning</span></p>
+ <p class="crumb mono"><a href="/work/">Work</a><span>/</span><span>Concept sites</span><span>/</span><span>Sumbi's Cleaning</span></p>
  <p class="flag">Concept project / sample site · not commissioned · not affiliated with the business</p>
+ <p class="cx">This is a self-initiated concept. I design and build sample sites like this to show how I would approach a real business problem through design, content and technology. The business did not commission it. <a href="/work/#samples">More about the concept sites</a>.</p>
  <h1>A soft, tiled website for <em>Sumbi's Cleaning</em></h1>
  <p class="dek">A home and office cleaning business serving Raleigh and the Triangle in North Carolina. It had no website, so I built a sample site to show what one could look like.</p>
- <dl class="facts">
+ <p class="mono glh">Project at a glance</p>
+ <dl class="facts auto">
+  <div><dt>Project type</dt><dd>Concept / sample site</dd></div>
   <div><dt>Business</dt><dd>Home &amp; office cleaning</dd></div>
   <div><dt>Location</dt><dd>Raleigh, NC</dd></div>
   <div><dt>My role</dt><dd>Design, copy, build</dd></div>
   <div><dt>Stack</dt><dd>HTML, CSS, JS · Vercel</dd></div>
   <div><dt>When</dt><dd>October 2026</dd></div>
+  <div><dt>The problem</dt><dd>Lots of fans, no place to book</dd></div>
+  <div><dt>Design idea</dt><dd>Soft colours, rounded tiles</dd></div>
  </dl>
  <div class="hero-fig">
-  <figure style="margin:0"><div class="browser"><div class="bar"><i></i><i></i><i></i><span>preview-sumbis-cleaning.vercel.app</span></div><img src="/work/sumbis-cleaning/desktop.webp" width="2880" height="1800" alt="Desktop view of the sample site: a lilac card with the headline &#x27;Small details are big essentials.&#x27; next to a photo of a clean kitchen, with rating tiles below."></div><figcaption>Desktop, 1440 × 900</figcaption></figure>
+  <figure style="margin:0"><div class="browser"><div class="bar"><i></i><i></i><i></i><span>preview-sumbis-cleaning.vercel.app</span></div><img src="/work/sumbis-cleaning/desktop.webp" fetchpriority="high" width="2880" height="1800" alt="Desktop view of the sample site: a lilac card with the headline &#x27;Small details are big essentials.&#x27; next to a photo of a clean kitchen, with rating tiles below."></div><figcaption>Desktop, 1440 × 900</figcaption></figure>
   <figure style="margin:0"><div class="phone"><img src="/work/sumbis-cleaning/mobile.webp" width="780" height="1688" alt="Mobile view of the same hero, with the lilac card, buttons and photo stacked."></div><figcaption>Mobile, 390 × 844</figcaption></figure>
  </div>
  <div class="actions">
@@ -223,13 +245,11 @@ footer a{text-decoration:none}
   </div>
   <p class="note">This is a concept I made on my own to show the business what a website could look like. Sumbi's Cleaning didn't commission it and hasn't endorsed it. There are no results to report because the site isn't live for the business.</p>
  </div></div>
- <nav class="pager" aria-label="Case studies">
-  <a href="/work/foxhollow-lawn-care"><span class="mono">← Previous case study</span><b>Foxhollow Lawn Care</b></a>
-  <a class="r" href="/work/flores-pools-more"><span class="mono">Next case study →</span><b>Flores Pools &amp; More</b></a>
- </nav>
+ <aside class="ctab" aria-label="Start a project"><div><p class="mono">Working on something similar?</p><h2 class="h3">Want a site like this for your business?</h2><p>I design and build websites for small businesses in the US, Ghana and elsewhere. Tell me what you do and I'll suggest where to start.</p></div><div class="b"><a class="btn solid" href="/#contact">Start a project</a><a class="btn ghost" href="/services/">See services</a></div></aside>
+ <nav class="pager" aria-label="More projects"><a href="/work/foxhollow-lawn-care/"><span class="mono">← Previous project</span><b>Foxhollow Lawn Care</b></a><a class="mid" href="/work/"><span class="mono">All work</span></a><a class="r" href="/work/flores-pools-more/"><span class="mono">Next project →</span><b>Flores Pools &amp; More</b></a></nav>
 </div></section>
 </main>
-<footer><div class="wrap mono"><span>© 2026 Eustace Crentsil</span><a href="/">eustacecrentsil.vercel.app</a><a href="#main">Back to top ↑</a></div></footer>
+<footer><div class="wrap mono"><span>© 2026 Eustace Crentsil · Based in Accra, Ghana · Working with clients in the US and worldwide</span><span class="fl"><a href="/services/">Services</a> <a href="/work/">Work</a> <a href="/Eustace-Crentsil-CV.pdf" download>CV</a> <a href="/#contact">Contact</a></span><a href="#main">Back to top ↑</a></div></footer>
 <script>
 document.getElementById('load').addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://preview-sumbis-cleaning.vercel.app';f.title="Live preview of the Sumbi's Cleaning sample site";f.loading='lazy';document.getElementById('slot').appendChild(f);this.disabled=true;this.textContent='Preview loaded'});
 </script>

@@ -1,7 +1,0 @@
-.DS_Store
-Thumbs.db
-node_modules/
-.vercel/
-.env*
-__pycache__/
-*.pyc
