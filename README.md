@@ -26,7 +26,3 @@ Then go to the address it prints (usually http://localhost:3000). Serving it is 
 - `work/<site>/` holds one case study per sample site, with its screenshots and share image
 - `Eustace-Crentsil-CV.pdf` is my CV
 - `source/` has the page template and small Python scripts I used to make edits. The live site doesn't need them.
-
-## Deploying
-
-Push to the connected Vercel project, or upload the folder with the Vercel CLI (`vercel --prod`).
