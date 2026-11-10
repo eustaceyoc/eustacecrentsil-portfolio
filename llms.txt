@@ -1,0 +1,51 @@
+# Eustace Crentsil
+
+> Full-stack developer and technical project manager in Accra, Ghana. I work with clients in Ghana, the US and remotely worldwide.
+
+## Services
+
+- [Website & Web Application Development](https://eustacecrentsil.vercel.app/services/#web): business websites, web apps, online stores, portals and WordPress builds, with support after launch.
+- [Business Automation](https://eustacecrentsil.vercel.app/services/#automation): tool integrations, lead handling, follow-ups and repetitive workflows.
+- [Technical Project Management](https://eustacecrentsil.vercel.app/services/#pm): requirements, scope, planning, team coordination and quality assurance.
+
+## Skills and stack
+
+HTML, CSS, JavaScript, React, Next.js, PHP, Python, Django, Node.js, MySQL and WordPress. Hosting and deployment with AWS and cPanel. Project tools include Asana, Trello, Notion, GitHub, Jira and Slack.
+
+## Background
+
+I co-founded Clottware, Inc. and worked there from October 2023 to December 2025. I have an MSc in Applied Geophysics from the University of Ghana and Front-End and Back-End certificates from ALX, March 2026.
+
+## Work and case studies
+
+- [All work](https://eustacecrentsil.vercel.app/work/)
+- [2BroGarage Doors](https://eustacecrentsil.vercel.app/work/2brogarage-doors/)
+- [Alloyd Garage Door](https://eustacecrentsil.vercel.app/work/alloyd-garage-door/)
+- [Blue Wave Pool Service](https://eustacecrentsil.vercel.app/work/blue-wave-pool-service/)
+- [Brittani's Custom Cleaning](https://eustacecrentsil.vercel.app/work/brittanis-custom-cleaning/)
+- [Clear Water Pool Service](https://eustacecrentsil.vercel.app/work/clear-water-pool-service/)
+- [Devcraft Handyman](https://eustacecrentsil.vercel.app/work/devcraft-handyman/)
+- [Dreher Electrical](https://eustacecrentsil.vercel.app/work/dreher-electrical/)
+- [Eckert Electric](https://eustacecrentsil.vercel.app/work/eckert-electric/)
+- [Edu3dcation Ghana](https://eustacecrentsil.vercel.app/work/edu3dgh/)
+- [Exceptional Lawn Care](https://eustacecrentsil.vercel.app/work/exceptional-lawn-care/)
+- [Flores Pools & More](https://eustacecrentsil.vercel.app/work/flores-pools-more/)
+- [Foxhollow Lawn Care](https://eustacecrentsil.vercel.app/work/foxhollow-lawn-care/)
+- [Nurse Approved](https://eustacecrentsil.vercel.app/work/iamnurseapproved/)
+- [Jaylee Electric](https://eustacecrentsil.vercel.app/work/jaylee-electric/)
+- [Luke & John Electric](https://eustacecrentsil.vercel.app/work/luke-john-electric/)
+- [Splash n Dash Pools](https://eustacecrentsil.vercel.app/work/splash-n-dash-pools/)
+- [Sumbi's Cleaning](https://eustacecrentsil.vercel.app/work/sumbis-cleaning/)
+- [TTG Staffing](https://eustacecrentsil.vercel.app/work/ttg-staffing/)
+
+The sample sites are concepts, not commissioned or endorsed by those businesses. They do not establish business results. The client project case studies describe my role and the work delivered.
+
+## About, CV and contact
+
+- [About me](https://eustacecrentsil.vercel.app/#about)
+- [Experience and education](https://eustacecrentsil.vercel.app/#resume)
+- [CV, PDF](https://eustacecrentsil.vercel.app/Eustace-Crentsil-CV.pdf)
+- [Contact form](https://eustacecrentsil.vercel.app/#contact)
+- Email: [eustaceocrentsil@gmail.com](mailto:eustaceocrentsil@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/eustace-crentsil)
+- [X](https://x.com/_yawofori)
